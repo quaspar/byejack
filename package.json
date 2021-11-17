@@ -1,0 +1,24 @@
+{
+  "name": "byejack",
+  "version": "1.0.0-alpha.4",
+  "description": "Warn when a package may have been hijacked.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "byejack": "./bin/cli.js"
+  },
+  "keywords": [
+    "npm",
+    "hijack",
+    "security"
+  ],
+  "author": "Caspar Behrendt",
+  "license": "ISC",
+  "dependencies": {
+    "@npmcli/arborist": "^4.0.4",
+    "luxon": "^2.1.1"
+  }
+}
