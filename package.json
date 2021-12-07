@@ -1,6 +1,6 @@
 {
   "name": "byejack",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Warn when a package may have been hijacked.",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@npmcli/arborist": "^4.0.4",
-    "luxon": "^2.1.1"
+    "luxon": "^2.1.1",
+    "yargs": "^17.3.0"
   }
 }

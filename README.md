@@ -15,6 +15,9 @@ or as a project dependency, in which case it should normally be added to the dev
 `npm install --save-dev byejack`
 
 ## Usage
+
+In a folder with a package-lock.json file or a shrinkwrap file, running `byejack` without arguments, will audit the lockfiles.
+
 Let's say you want to install the "react" package via npm. If you run `npm install react` it will install the latest stable version of the package. It will also install a number of dependencies. To see what would get installed by the npm install command, you can use Byejack like so:
 
 `byejack react` (if Byejack is installed globally), or
